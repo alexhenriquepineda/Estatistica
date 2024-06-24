@@ -61,3 +61,39 @@ Vamos usar o mesmo exemplo do Teste A/B entre dois layouts de uma página de pro
 
 O nível de significância é uma ferramenta crucial para determinar a confiabilidade dos resultados de um teste. Ele ajuda a controlar a probabilidade de cometer erros ao decidir se uma diferença observada é real ou se pode ser atribuída ao acaso. Definir um nível de significância apropriado e interpretar corretamente o p-valor são passos essenciais para garantir a validade dos resultados de um Teste A/B.
 
+
+## Nível de Confiança
+
+O nível de confiança em um Teste A/B é uma medida estatística que indica a probabilidade de que os resultados observados no teste não sejam devidos ao acaso. Em outras palavras, ele nos ajuda a determinar a confiabilidade dos resultados obtidos. Vamos explorar esse conceito de forma mais detalhada:
+
+### Conceitos Básicos
+
+1. **Definição do Nível de Confiança**: O nível de confiança é expresso como uma porcentagem e indica o grau de certeza desejado na validade dos resultados. Por exemplo, um nível de confiança de 95% significa que há 95% de probabilidade de que os resultados observados sejam verdadeiros e apenas 5% de probabilidade de que sejam devidos ao acaso.
+
+2. **Intervalo de Confiança**: Junto com o nível de confiança, é comum relatar um intervalo de confiança. Esse intervalo indica a faixa de valores dentro da qual o valor verdadeiro da métrica testada provavelmente está. Por exemplo, um intervalo de confiança de 95% pode ser de 2% a 8%, o que significa que estamos 95% confiantes de que a verdadeira taxa de conversão está entre 2% e 8%.
+
+### Como o Nível de Confiança é Determinado
+
+1. **Escolha do Nível de Confiança**: Antes de iniciar o Teste A/B, é importante decidir o nível de confiança desejado. Isso geralmente é baseado na importância da decisão e na necessidade de reduzir o risco de erro.
+
+2. **Interpretação dos Resultados**: Após a coleta dos dados do teste, os resultados são analisados estatisticamente. O nível de confiança ajuda a interpretar se a diferença observada entre as variantes testadas é significativa o suficiente para ser considerada real.
+
+3. **Relação com o P-Valor**: O nível de confiança está intimamente relacionado ao p-valor. Enquanto o nível de confiança indica a probabilidade de que os resultados sejam verdadeiros, o p-valor indica a probabilidade de obter resultados tão extremos quanto os observados, assumindo que a hipótese nula é verdadeira.
+
+### Exemplo Prático
+
+Imagine que você está realizando um Teste A/B para comparar duas versões de um anúncio de produto:
+
+- **Hipótese**: A versão B do anúncio terá uma taxa de cliques maior do que a versão A.
+
+- **Nível de Confiança**: Você decide usar um nível de confiança de 95%.
+
+- **Coleta de Dados**: Após o teste, você observa que a versão B teve uma taxa de cliques de 12% e a versão A teve uma taxa de cliques de 10%.
+
+- **Interpretação**: Com um nível de confiança de 95%, você conclui que há uma diferença estatisticamente significativa nas taxas de cliques entre as duas versões. Isso significa que há 95% de probabilidade de que a versão B realmente tenha uma taxa de cliques maior do que a versão A, e apenas 5% de probabilidade de que a diferença observada seja devida ao acaso.
+
+### Conclusão
+
+O nível de confiança é uma medida essencial para avaliar a validade estatística dos resultados de um Teste A/B. Ele fornece uma maneira quantitativa de interpretar a probabilidade de que os resultados observados reflitam verdadeiramente as diferenças nas variantes testadas, ajudando na tomada de decisões informadas baseadas em dados.
+
+
